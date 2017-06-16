@@ -1,0 +1,5 @@
+com\joecolantonio\serenity\pages\DictionaryPage.class
+com\joecolantonio\serenity\pages\DictionaryPage$1.class
+com\joecolantonio\serenity\AcceptanceTestSuite.class
+com\joecolantonio\serenity\steps\DefinitionSteps.class
+com\joecolantonio\serenity\steps\serenity\EndUserSteps.class

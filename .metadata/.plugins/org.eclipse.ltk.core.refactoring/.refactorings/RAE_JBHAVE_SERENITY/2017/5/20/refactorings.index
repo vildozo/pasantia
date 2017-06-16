@@ -1,0 +1,7 @@
+1494877909245	Rename type 'RAE_Page'
+1494877959352	Rename type 'DefinitionSteps'
+1494878115974	Rename type 'StepDefinition'
+1494878146472	Rename type 'EndUserSteps'
+1494878177943	Rename type 'GoogleStepDefinition'
+1494878805809	Rename field 'rae_page'
+1494964088622	Rename method 'givenTheUserIsInEDXorgHomePage'

@@ -1,0 +1,17 @@
+1492032758771	Rename method 'givenTheUserIsInRealAcademiaEspanolaHomePage'
+1492119464157	Rename resource 'RAE'
+1492119510410	Rename resource 'SearchInRealAcademiaEspanola.story'
+1492120155567	Rename package 'googleSearch'
+1492120433430	Delete element
+1492120737193	Delete element
+1492120858131	Delete element
+1492120883774	Rename package 'javier_jbehave_serenity.pages'
+1492120968251	Rename package 'javier_jbehave_serenity.steps'
+1492121113108	Rename package 'javier_jbehave_serenity.google.pages'
+1492121131309	Rename package 'javier_jbehave_serenity.google.steps'
+1492121802553	Rename package 'javier_jbehave_serenity.pages'
+1492121848496	Rename package 'javier_jbehave_serenity.steps'
+1492121864999	Rename package 'javier_jbehave_serenity.steps.serenity'
+1492122012154	Copy compilation unit
+1492122026000	Rename package 'javier_jbehave_serenity.comteco.pages'
+1492122134328	Move compilation unit

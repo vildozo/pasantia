@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Tue Apr 11 17:47:28 BOT 2017
+threads=1
+total=39000
+threadAverage=39000
+stories/consult_dictionary/LookupADefinition.story=39000

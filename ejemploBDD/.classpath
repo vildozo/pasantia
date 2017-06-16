@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/aopalliance.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/asm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/cglib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/cglib-nodep.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/commons-codec.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/commons-collections.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/commons-compress.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/commons-exec.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/commons-io.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/commons-lang.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/cssparser.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/freemarker.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/guava.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/guice.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/hamcrest-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/hamcrest-integration.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/hamcrest-library.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/htmlunit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/htmlunit-core-js.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/httpclient.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/httpcore.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/httpmime.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/javax.inject.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/jbehave-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/jbehave-web-io.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/jbehave-web-runner.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/jbehave-web-selenium.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/jna.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/json.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/jsr305.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/junit-dep.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/maven-default-skin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/nekohtml.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/netty.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/paranamer.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/platform.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/plexus-utils.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/sac.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/selenium-android-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/selenium-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/selenium-chrome-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/selenium-firefox-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/selenium-htmlunit-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/selenium-ie-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/selenium-iphone-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/selenium-java.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/selenium-remote-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/selenium-safari-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/selenium-support.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/serializer.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/velocity.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/webbit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/wicket-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/wicket-extensions.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/wicket-guice.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/wicket-ioc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/wicket-request.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/wicket-util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/wicket-velocity.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/xalan.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/xpp3_min.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/jbehave-web-3.5.3/lib/xstream.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/JBEHAVE LIBRARIES CURRENT/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/JBEHAVE LIBRARIES CURRENT/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/JBEHAVE LIBRARIES CURRENT/freemarker-2.3.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/JBEHAVE LIBRARIES CURRENT/jbehave-core-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/JBEHAVE LIBRARIES CURRENT/org.apache.commons.io.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/JBEHAVE LIBRARIES CURRENT/paranamer-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/JBEHAVE LIBRARIES CURRENT/plexus-utils-3.0.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/JBEHAVE LIBRARIES CURRENT/others/gherkin-2.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/JBEHAVE LIBRARIES CURRENT/others/gherkin-jvm-deps-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/JBEHAVE LIBRARIES CURRENT/others/jbehave-core-4.0-beta-3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/JBEHAVE LIBRARIES CURRENT/others/jbehave-gherkin-4.0-beta-2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/javier.vildozo/Desktop/JBEHAVE LIBRARIES CURRENT/others/jbehave-junit-runner-1.0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

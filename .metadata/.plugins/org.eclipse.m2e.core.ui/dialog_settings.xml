@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="jbehave.june"/>
+			<item value="abba.jbehave"/>
+			<item value="calculadora"/>
+			<item value="com.hascode.tutorial "/>
+		</list>
+		<list key="name">
+			<item value="abba"/>
+		</list>
+		<list key="artifactId">
+			<item value="jbehave.june"/>
+			<item value="abba.jbehave"/>
+			<item value="Calculator"/>
+			<item value="alfaSerenity"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\javier.vildozo\workspace\JBehave Google"/>
+			<item value="C:\Users\javier.vildozo\workspace\jbehave-tutorial"/>
+			<item value="C:\Users\javier.vildozo\workspace"/>
+			<item value="C:\Users\javier.vildozo\workspace\FINALLY-JBEHAVE-SERENITY"/>
+			<item value="C:\Users\javier.vildozo\CONSEJO_ALVARO"/>
+			<item value="C:\Users\javier.vildozo\FINALLY-JBEHAVE-SERENITY"/>
+			<item value="C:\Users\javier.vildozo\pruebaSerenity"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\javier.vildozo\workspace\RAE_JBHAVE_SERENITY"/>
+			<item value="C:\Users\javier.vildozo\workspace\mySerenity"/>
+			<item value="C:\Users\javier.vildozo\workspace\3Projeto BDD"/>
+			<item value="C:\Users\javier.vildozo\workspace\JBeHavePlugin"/>
+			<item value="C:\Users\javier.vildozo\workspace\serenity-starter"/>
+			<item value="C:\Users\javier.vildozo\workspace\Cucumber-book-blog\src\test\java\com\cucumber\features\githubLoginSD.feature"/>
+			<item value="C:\Users\javier.vildozo\workspace\cucumber.test"/>
+			<item value="C:\Users\javier.vildozo\workspace"/>
+			<item value="C:\Users\javier.vildozo\workspace\OnlineStore"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

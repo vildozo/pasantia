@@ -1,0 +1,2217 @@
+{"xref": {
+  "stories": [
+    {
+      "story": {
+        "path": "stories/consult_dictionary/LookupADefinition.story",
+        "description": {
+          "descriptionAsString": "Lookup a definition"
+        },
+        "narrative": {
+          "inOrderTo": "talk better",
+          "asA": "n English student",
+          "iWantTo": "look up word definitions",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "Looking up the definition of 'apple'",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given the user is on the Wikionary home page",
+              "When the user looks up the definition of the word 'apple'",
+              "Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.'"
+            ]
+          },
+          {
+            "title": "Looking up the definition of 'pear'",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given the user is on the Wikionary home page",
+              "When the user looks up the definition of the word 'pear'",
+              "Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'"
+            ]
+          }
+        ],
+        "name": "LookupADefinition.story"
+      },
+      "localizedNarrative": "In order to talk better\nAs a n English student\nI want to look up word definitions",
+      "allowed": true,
+      "status": "FAILED",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "Looking up the definition of 'apple'",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given the user is on the Wikionary home page",
+              "When the user looks up the definition of the word 'apple'",
+              "Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.'"
+            ]
+          },
+          "storyPath": "stories/consult_dictionary/LookupADefinition.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given the user is on the Wikionary home page",
+                  "type": "FAILED",
+                  "throwable": {
+                    "detailMessage": "Given the user is on the Wikionary home page",
+                    "cause": {
+                      "@class": "net.thucydides.core.webdriver.UnsupportedDriverException",
+                      "detailMessage": "Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver",
+                      "cause": {
+                        "@class": "net.thucydides.core.webdriver.UnsupportedDriverException",
+                        "detailMessage": "Could not instantiate new webdriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Failed to connect to binary FirefoxBinary(C:\\Program Files\\Mozilla Firefox\\firefox.exe) on port 7055; process output follows: \nion\":\"The default theme.\",\"creator\":\"Mozilla\",\"homepageURL\":null,\"contributors\":[\"Mozilla Contributors\"]},\"visible\":true,\"active\":true,\"userDisabled\":false,\"appDisabled\":false,\"descriptor\":\"C:\\\\Program Files\\\\Mozilla Firefox\\\\browser\\\\extensions\\\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi\",\"installDate\":1474576289000,\"updateDate\":1474576289000,\"applyBackgroundUpdates\":1,\"skinnable\":true,\"size\":21905,\"sourceURI\":null,\"releaseNotesURI\":null,\"softDisabled\":false,\"foreignInstall\":false,\"hasBinaryComponents\":false,\"strictCompatibility\":true,\"locales\":[],\"targetApplications\":[{\"id\":\"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\",\"minVersion\":\"49.0.1\",\"maxVersion\":\"49.0.1\"}],\"targetPlatforms\":[],\"seen\":true}\r\n1491856739694\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1491856739696\tDeferredSave.extensions.json\tDEBUG\tSave changes\r\n1491856739696\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\r\n1491856739696\taddons.xpi-utils\tDEBUG\tUpdating add-on states\r\n1491856739699\taddons.xpi-utils\tDEBUG\tWriting add-ons list\r\n1491856739702\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi\r\n1491856739703\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\r\n1491856739703\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi\r\n1491856739703\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\r\n1491856739704\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi\r\n1491856739704\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\r\n1491856739706\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1491856739707\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1491856739707\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1491856739715\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1491856739716\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1491856739716\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1491856739716\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1491856739716\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1491856739717\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1491856740838\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\r\n1491856740838\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\r\n1491856740838\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\r\n1491856740840\tDeferredSave.extensions.json\tDEBUG\tStarting write\r\n1491856740999\taddons.repository\tDEBUG\tNo addons.json found.\r\n1491856741000\tDeferredSave.addons.json\tDEBUG\tSave changes\r\n1491856741003\tDeferredSave.addons.json\tDEBUG\tStarting timer\r\n1491856741027\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1491856741028\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1491856741028\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n1491856741032\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\r\n1491856741033\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\r\n1491856741056\tDeferredSave.addons.json\tDEBUG\tStarting write\r\n1491856741072\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\r\n[Child 8632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n[Child 8632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: FirefoxDriver",
+                        "cause": {
+                          "@class": "org.openqa.selenium.WebDriverException",
+                          "detailMessage": "Failed to connect to binary FirefoxBinary(C:\\Program Files\\Mozilla Firefox\\firefox.exe) on port 7055; process output follows: \nion\":\"The default theme.\",\"creator\":\"Mozilla\",\"homepageURL\":null,\"contributors\":[\"Mozilla Contributors\"]},\"visible\":true,\"active\":true,\"userDisabled\":false,\"appDisabled\":false,\"descriptor\":\"C:\\\\Program Files\\\\Mozilla Firefox\\\\browser\\\\extensions\\\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi\",\"installDate\":1474576289000,\"updateDate\":1474576289000,\"applyBackgroundUpdates\":1,\"skinnable\":true,\"size\":21905,\"sourceURI\":null,\"releaseNotesURI\":null,\"softDisabled\":false,\"foreignInstall\":false,\"hasBinaryComponents\":false,\"strictCompatibility\":true,\"locales\":[],\"targetApplications\":[{\"id\":\"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\",\"minVersion\":\"49.0.1\",\"maxVersion\":\"49.0.1\"}],\"targetPlatforms\":[],\"seen\":true}\r\n1491856739694\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1491856739696\tDeferredSave.extensions.json\tDEBUG\tSave changes\r\n1491856739696\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\r\n1491856739696\taddons.xpi-utils\tDEBUG\tUpdating add-on states\r\n1491856739699\taddons.xpi-utils\tDEBUG\tWriting add-ons list\r\n1491856739702\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi\r\n1491856739703\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\r\n1491856739703\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi\r\n1491856739703\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\r\n1491856739704\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi\r\n1491856739704\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\r\n1491856739706\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1491856739707\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1491856739707\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1491856739715\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1491856739716\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1491856739716\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1491856739716\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1491856739716\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1491856739717\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1491856740838\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\r\n1491856740838\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\r\n1491856740838\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\r\n1491856740840\tDeferredSave.extensions.json\tDEBUG\tStarting write\r\n1491856740999\taddons.repository\tDEBUG\tNo addons.json found.\r\n1491856741000\tDeferredSave.addons.json\tDEBUG\tSave changes\r\n1491856741003\tDeferredSave.addons.json\tDEBUG\tStarting timer\r\n1491856741027\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1491856741028\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1491856741028\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n1491856741032\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\r\n1491856741033\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\r\n1491856741056\tDeferredSave.addons.json\tDEBUG\tStarting write\r\n1491856741072\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\r\n[Child 8632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n[Child 8632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n",
+                          "cause": {
+                            "@class": "org.openqa.selenium.firefox.NotConnectedException",
+                            "detailMessage": "Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:\nion\":\"The default theme.\",\"creator\":\"Mozilla\",\"homepageURL\":null,\"contributors\":[\"Mozilla Contributors\"]},\"visible\":true,\"active\":true,\"userDisabled\":false,\"appDisabled\":false,\"descriptor\":\"C:\\\\Program Files\\\\Mozilla Firefox\\\\browser\\\\extensions\\\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi\",\"installDate\":1474576289000,\"updateDate\":1474576289000,\"applyBackgroundUpdates\":1,\"skinnable\":true,\"size\":21905,\"sourceURI\":null,\"releaseNotesURI\":null,\"softDisabled\":false,\"foreignInstall\":false,\"hasBinaryComponents\":false,\"strictCompatibility\":true,\"locales\":[],\"targetApplications\":[{\"id\":\"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\",\"minVersion\":\"49.0.1\",\"maxVersion\":\"49.0.1\"}],\"targetPlatforms\":[],\"seen\":true}\r\n1491856739694\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1491856739696\tDeferredSave.extensions.json\tDEBUG\tSave changes\r\n1491856739696\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\r\n1491856739696\taddons.xpi-utils\tDEBUG\tUpdating add-on states\r\n1491856739699\taddons.xpi-utils\tDEBUG\tWriting add-ons list\r\n1491856739702\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi\r\n1491856739703\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\r\n1491856739703\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi\r\n1491856739703\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\r\n1491856739704\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi\r\n1491856739704\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\r\n1491856739706\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1491856739707\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1491856739707\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1491856739715\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1491856739716\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1491856739716\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1491856739716\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1491856739716\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1491856739717\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1491856740838\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\r\n1491856740838\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\r\n1491856740838\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\r\n1491856740840\tDeferredSave.extensions.json\tDEBUG\tStarting write\r\n1491856740999\taddons.repository\tDEBUG\tNo addons.json found.\r\n1491856741000\tDeferredSave.addons.json\tDEBUG\tSave changes\r\n1491856741003\tDeferredSave.addons.json\tDEBUG\tStarting timer\r\n1491856741027\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1491856741028\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1491856741028\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n1491856741032\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\r\n1491856741033\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\r\n1491856741056\tDeferredSave.addons.json\tDEBUG\tStarting write\r\n1491856741072\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\r\n[Child 8632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n[Child 8632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n",
+                            "stackTrace": [
+                              "org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)",
+                              "org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)",
+                              "org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)",
+                              "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)",
+                              "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)",
+                              "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)",
+                              "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newFirefoxDriver(FirefoxDriverProvider.java:67)",
+                              "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:51)",
+                              "net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:125)",
+                              "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)",
+                              "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                              "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                              "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                              "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                              "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                              "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                              "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                              "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                              "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                              "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                              "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                              "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                              "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                              "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                              "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                              "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                              "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                              "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                              "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                              "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                              "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                              "java.lang.reflect.Method.invoke(Method.java:498)",
+                              "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                              "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                              "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                              "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                              "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                              "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                              "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                              "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                              "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                              "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                              "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                              "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                              "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                              "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                              "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                              "java.lang.Thread.run(Thread.java:745)"
+                            ],
+                            "suppressedExceptions": [
+                              [],
+                              []
+                            ]
+                          },
+                          "stackTrace": [
+                            "org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)",
+                            "org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)",
+                            "org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)",
+                            "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)",
+                            "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)",
+                            "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)",
+                            "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newFirefoxDriver(FirefoxDriverProvider.java:67)",
+                            "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:51)",
+                            "net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:125)",
+                            "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)",
+                            "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                            "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                            "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                            "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                            "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                            "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                            "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                            "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                            "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                            "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                            "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                            "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                            "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                            "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                            "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                            "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                            "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                            "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                            "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                            "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                            "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                            "java.lang.reflect.Method.invoke(Method.java:498)",
+                            "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                            "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                            "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                            "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                            "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                            "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                            "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                            "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                            "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                            "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                            "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                            "java.lang.Thread.run(Thread.java:745)"
+                          ],
+                          "suppressedExceptions": [
+                            [],
+                            []
+                          ],
+                          "extraInfo": [
+                            [
+                              "Driver info",
+                              "driver.version: FirefoxDriver"
+                            ]
+                          ]
+                        },
+                        "stackTrace": [
+                          "net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:135)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                          "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                          "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                          "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                          "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                          "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                          "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                          "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                          "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                          "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                          "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:498)",
+                          "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                          "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                          "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                          "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                          "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                          "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                          "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                          "java.lang.Thread.run(Thread.java:745)"
+                        ],
+                        "suppressedExceptions": [
+                          [],
+                          []
+                        ]
+                      },
+                      "stackTrace": [
+                        "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:148)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                        "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                        "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                        "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                        "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ]
+                    },
+                    "stackTrace": [
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "015bd529-176f-4145-a574-c2bf1b79fc40"
+                  },
+                  "parametrisedStep": "Given the user is on the Wikionary home page",
+                  "durationInMillis": 48480
+                },
+                {
+                  "step": "When the user looks up the definition of the word 'apple'",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "When the user looks up the definition of the word 'apple'",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.'",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.'",
+                  "durationInMillis": 0
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Looking up the definition of 'apple'",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given the user is on the Wikionary home page",
+                "When the user looks up the definition of the word 'apple'",
+                "Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.'"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "FAILED"
+        },
+        {
+          "scenario": {
+            "title": "Looking up the definition of 'pear'",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given the user is on the Wikionary home page",
+              "When the user looks up the definition of the word 'pear'",
+              "Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'"
+            ]
+          },
+          "storyPath": "stories/consult_dictionary/LookupADefinition.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given the user is on the Wikionary home page",
+                  "type": "FAILED",
+                  "throwable": {
+                    "detailMessage": "Given the user is on the Wikionary home page",
+                    "cause": {
+                      "@class": "net.thucydides.core.webdriver.UnsupportedDriverException",
+                      "detailMessage": "Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver",
+                      "cause": {
+                        "@class": "net.thucydides.core.webdriver.UnsupportedDriverException",
+                        "detailMessage": "Could not instantiate new webdriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Failed to connect to binary FirefoxBinary(C:\\Program Files\\Mozilla Firefox\\firefox.exe) on port 7055; process output follows: \ngetPlatforms\":[],\"seen\":true}\r\n1491856786112\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1491856786113\tDeferredSave.extensions.json\tDEBUG\tSave changes\r\n1491856786113\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\r\n1491856786113\taddons.xpi-utils\tDEBUG\tUpdating add-on states\r\n1491856786116\taddons.xpi-utils\tDEBUG\tWriting add-ons list\r\n1491856786119\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi\r\n1491856786119\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\r\n1491856786119\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi\r\n1491856786120\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\r\n1491856786121\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi\r\n1491856786121\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\r\n1491856786123\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1491856786123\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1491856786123\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1491856786132\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1491856786133\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1491856786133\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1491856787423\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\r\n1491856787423\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\r\n1491856787424\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\r\n1491856787425\tDeferredSave.extensions.json\tDEBUG\tStarting write\r\n1491856787597\taddons.repository\tDEBUG\tNo addons.json found.\r\n1491856787597\tDeferredSave.addons.json\tDEBUG\tSave changes\r\n1491856787601\tDeferredSave.addons.json\tDEBUG\tStarting timer\r\n1491856787623\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1491856787624\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1491856787624\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n1491856787627\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\r\n1491856787628\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\r\n1491856787660\tDeferredSave.addons.json\tDEBUG\tStarting write\r\n1491856787676\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\r\n[Child 9732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n[Child 9732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n\r\n###!!! [Child][MessageChannel::SendAndWait] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\nJavaScript error: resource://pdf.js/PdfjsContentUtils.jsm, line 106: TypeError: this._mm.sendSyncMessage(...) is undefined\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: FirefoxDriver",
+                        "cause": {
+                          "@class": "org.openqa.selenium.WebDriverException",
+                          "detailMessage": "Failed to connect to binary FirefoxBinary(C:\\Program Files\\Mozilla Firefox\\firefox.exe) on port 7055; process output follows: \ngetPlatforms\":[],\"seen\":true}\r\n1491856786112\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1491856786113\tDeferredSave.extensions.json\tDEBUG\tSave changes\r\n1491856786113\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\r\n1491856786113\taddons.xpi-utils\tDEBUG\tUpdating add-on states\r\n1491856786116\taddons.xpi-utils\tDEBUG\tWriting add-ons list\r\n1491856786119\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi\r\n1491856786119\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\r\n1491856786119\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi\r\n1491856786120\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\r\n1491856786121\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi\r\n1491856786121\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\r\n1491856786123\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1491856786123\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1491856786123\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1491856786132\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1491856786133\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1491856786133\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1491856787423\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\r\n1491856787423\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\r\n1491856787424\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\r\n1491856787425\tDeferredSave.extensions.json\tDEBUG\tStarting write\r\n1491856787597\taddons.repository\tDEBUG\tNo addons.json found.\r\n1491856787597\tDeferredSave.addons.json\tDEBUG\tSave changes\r\n1491856787601\tDeferredSave.addons.json\tDEBUG\tStarting timer\r\n1491856787623\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1491856787624\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1491856787624\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n1491856787627\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\r\n1491856787628\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\r\n1491856787660\tDeferredSave.addons.json\tDEBUG\tStarting write\r\n1491856787676\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\r\n[Child 9732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n[Child 9732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n\r\n###!!! [Child][MessageChannel::SendAndWait] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\nJavaScript error: resource://pdf.js/PdfjsContentUtils.jsm, line 106: TypeError: this._mm.sendSyncMessage(...) is undefined\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n",
+                          "cause": {
+                            "@class": "org.openqa.selenium.firefox.NotConnectedException",
+                            "detailMessage": "Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:\ngetPlatforms\":[],\"seen\":true}\r\n1491856786112\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1491856786113\tDeferredSave.extensions.json\tDEBUG\tSave changes\r\n1491856786113\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\r\n1491856786113\taddons.xpi-utils\tDEBUG\tUpdating add-on states\r\n1491856786116\taddons.xpi-utils\tDEBUG\tWriting add-ons list\r\n1491856786119\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi\r\n1491856786119\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\r\n1491856786119\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi\r\n1491856786120\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\r\n1491856786121\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi\r\n1491856786121\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\r\n1491856786123\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1491856786123\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1491856786123\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1491856786132\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1491856786133\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1491856786133\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1491856787423\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\r\n1491856787423\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\r\n1491856787424\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\r\n1491856787425\tDeferredSave.extensions.json\tDEBUG\tStarting write\r\n1491856787597\taddons.repository\tDEBUG\tNo addons.json found.\r\n1491856787597\tDeferredSave.addons.json\tDEBUG\tSave changes\r\n1491856787601\tDeferredSave.addons.json\tDEBUG\tStarting timer\r\n1491856787623\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1491856787624\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1491856787624\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n1491856787627\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\r\n1491856787628\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\r\n1491856787660\tDeferredSave.addons.json\tDEBUG\tStarting write\r\n1491856787676\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\r\n[Child 9732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n[Child 9732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n\r\n###!!! [Child][MessageChannel::SendAndWait] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\nJavaScript error: resource://pdf.js/PdfjsContentUtils.jsm, line 106: TypeError: this._mm.sendSyncMessage(...) is undefined\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n",
+                            "stackTrace": [
+                              "org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)",
+                              "org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)",
+                              "org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)",
+                              "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)",
+                              "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)",
+                              "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)",
+                              "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newFirefoxDriver(FirefoxDriverProvider.java:67)",
+                              "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:51)",
+                              "net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:125)",
+                              "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)",
+                              "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                              "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                              "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                              "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                              "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                              "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                              "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                              "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                              "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                              "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                              "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                              "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                              "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                              "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                              "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                              "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                              "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                              "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                              "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                              "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                              "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                              "java.lang.reflect.Method.invoke(Method.java:498)",
+                              "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                              "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                              "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                              "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                              "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                              "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                              "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                              "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                              "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                              "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                              "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                              "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                              "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                              "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                              "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                              "java.lang.Thread.run(Thread.java:745)"
+                            ],
+                            "suppressedExceptions": [
+                              [],
+                              []
+                            ]
+                          },
+                          "stackTrace": [
+                            "org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)",
+                            "org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)",
+                            "org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)",
+                            "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)",
+                            "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)",
+                            "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)",
+                            "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newFirefoxDriver(FirefoxDriverProvider.java:67)",
+                            "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:51)",
+                            "net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:125)",
+                            "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)",
+                            "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                            "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                            "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                            "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                            "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                            "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                            "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                            "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                            "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                            "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                            "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                            "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                            "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                            "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                            "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                            "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                            "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                            "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                            "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                            "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                            "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                            "java.lang.reflect.Method.invoke(Method.java:498)",
+                            "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                            "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                            "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                            "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                            "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                            "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                            "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                            "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                            "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                            "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                            "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                            "java.lang.Thread.run(Thread.java:745)"
+                          ],
+                          "suppressedExceptions": [
+                            [],
+                            []
+                          ],
+                          "extraInfo": [
+                            [
+                              "Driver info",
+                              "driver.version: FirefoxDriver"
+                            ]
+                          ]
+                        },
+                        "stackTrace": [
+                          "net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:135)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                          "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                          "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                          "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                          "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                          "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                          "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                          "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                          "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                          "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                          "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:498)",
+                          "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                          "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                          "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                          "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                          "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                          "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                          "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                          "java.lang.Thread.run(Thread.java:745)"
+                        ],
+                        "suppressedExceptions": [
+                          [],
+                          []
+                        ]
+                      },
+                      "stackTrace": [
+                        "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:148)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                        "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                        "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                        "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                        "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ]
+                    },
+                    "stackTrace": [
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "632bc81b-7e17-4ba1-9390-0be0a002cb50"
+                  },
+                  "parametrisedStep": "Given the user is on the Wikionary home page",
+                  "durationInMillis": 46480
+                },
+                {
+                  "step": "When the user looks up the definition of the word 'pear'",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "When the user looks up the definition of the word 'pear'",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'",
+                  "durationInMillis": 0
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Looking up the definition of 'pear'",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given the user is on the Wikionary home page",
+                "When the user looks up the definition of the word 'pear'",
+                "Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "NOT_PERFORMED"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 95363
+      },
+      "givenStory": false
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": {
+        "title": "Looking up the definition of 'apple'",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given the user is on the Wikionary home page",
+          "When the user looks up the definition of the word 'apple'",
+          "Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.'"
+        ]
+      },
+      "storyPath": "stories/consult_dictionary/LookupADefinition.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given the user is on the Wikionary home page",
+              "type": "FAILED",
+              "throwable": {
+                "detailMessage": "Given the user is on the Wikionary home page",
+                "cause": {
+                  "@class": "net.thucydides.core.webdriver.UnsupportedDriverException",
+                  "detailMessage": "Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver",
+                  "cause": {
+                    "@class": "net.thucydides.core.webdriver.UnsupportedDriverException",
+                    "detailMessage": "Could not instantiate new webdriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Failed to connect to binary FirefoxBinary(C:\\Program Files\\Mozilla Firefox\\firefox.exe) on port 7055; process output follows: \nion\":\"The default theme.\",\"creator\":\"Mozilla\",\"homepageURL\":null,\"contributors\":[\"Mozilla Contributors\"]},\"visible\":true,\"active\":true,\"userDisabled\":false,\"appDisabled\":false,\"descriptor\":\"C:\\\\Program Files\\\\Mozilla Firefox\\\\browser\\\\extensions\\\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi\",\"installDate\":1474576289000,\"updateDate\":1474576289000,\"applyBackgroundUpdates\":1,\"skinnable\":true,\"size\":21905,\"sourceURI\":null,\"releaseNotesURI\":null,\"softDisabled\":false,\"foreignInstall\":false,\"hasBinaryComponents\":false,\"strictCompatibility\":true,\"locales\":[],\"targetApplications\":[{\"id\":\"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\",\"minVersion\":\"49.0.1\",\"maxVersion\":\"49.0.1\"}],\"targetPlatforms\":[],\"seen\":true}\r\n1491856739694\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1491856739696\tDeferredSave.extensions.json\tDEBUG\tSave changes\r\n1491856739696\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\r\n1491856739696\taddons.xpi-utils\tDEBUG\tUpdating add-on states\r\n1491856739699\taddons.xpi-utils\tDEBUG\tWriting add-ons list\r\n1491856739702\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi\r\n1491856739703\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\r\n1491856739703\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi\r\n1491856739703\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\r\n1491856739704\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi\r\n1491856739704\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\r\n1491856739706\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1491856739707\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1491856739707\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1491856739715\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1491856739716\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1491856739716\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1491856739716\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1491856739716\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1491856739717\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1491856740838\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\r\n1491856740838\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\r\n1491856740838\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\r\n1491856740840\tDeferredSave.extensions.json\tDEBUG\tStarting write\r\n1491856740999\taddons.repository\tDEBUG\tNo addons.json found.\r\n1491856741000\tDeferredSave.addons.json\tDEBUG\tSave changes\r\n1491856741003\tDeferredSave.addons.json\tDEBUG\tStarting timer\r\n1491856741027\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1491856741028\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1491856741028\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n1491856741032\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\r\n1491856741033\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\r\n1491856741056\tDeferredSave.addons.json\tDEBUG\tStarting write\r\n1491856741072\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\r\n[Child 8632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n[Child 8632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: FirefoxDriver",
+                    "cause": {
+                      "@class": "org.openqa.selenium.WebDriverException",
+                      "detailMessage": "Failed to connect to binary FirefoxBinary(C:\\Program Files\\Mozilla Firefox\\firefox.exe) on port 7055; process output follows: \nion\":\"The default theme.\",\"creator\":\"Mozilla\",\"homepageURL\":null,\"contributors\":[\"Mozilla Contributors\"]},\"visible\":true,\"active\":true,\"userDisabled\":false,\"appDisabled\":false,\"descriptor\":\"C:\\\\Program Files\\\\Mozilla Firefox\\\\browser\\\\extensions\\\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi\",\"installDate\":1474576289000,\"updateDate\":1474576289000,\"applyBackgroundUpdates\":1,\"skinnable\":true,\"size\":21905,\"sourceURI\":null,\"releaseNotesURI\":null,\"softDisabled\":false,\"foreignInstall\":false,\"hasBinaryComponents\":false,\"strictCompatibility\":true,\"locales\":[],\"targetApplications\":[{\"id\":\"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\",\"minVersion\":\"49.0.1\",\"maxVersion\":\"49.0.1\"}],\"targetPlatforms\":[],\"seen\":true}\r\n1491856739694\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1491856739696\tDeferredSave.extensions.json\tDEBUG\tSave changes\r\n1491856739696\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\r\n1491856739696\taddons.xpi-utils\tDEBUG\tUpdating add-on states\r\n1491856739699\taddons.xpi-utils\tDEBUG\tWriting add-ons list\r\n1491856739702\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi\r\n1491856739703\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\r\n1491856739703\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi\r\n1491856739703\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\r\n1491856739704\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi\r\n1491856739704\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\r\n1491856739706\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1491856739707\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1491856739707\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1491856739715\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1491856739716\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1491856739716\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1491856739716\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1491856739716\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1491856739717\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1491856740838\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\r\n1491856740838\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\r\n1491856740838\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\r\n1491856740840\tDeferredSave.extensions.json\tDEBUG\tStarting write\r\n1491856740999\taddons.repository\tDEBUG\tNo addons.json found.\r\n1491856741000\tDeferredSave.addons.json\tDEBUG\tSave changes\r\n1491856741003\tDeferredSave.addons.json\tDEBUG\tStarting timer\r\n1491856741027\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1491856741028\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1491856741028\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n1491856741032\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\r\n1491856741033\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\r\n1491856741056\tDeferredSave.addons.json\tDEBUG\tStarting write\r\n1491856741072\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\r\n[Child 8632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n[Child 8632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n",
+                      "cause": {
+                        "@class": "org.openqa.selenium.firefox.NotConnectedException",
+                        "detailMessage": "Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:\nion\":\"The default theme.\",\"creator\":\"Mozilla\",\"homepageURL\":null,\"contributors\":[\"Mozilla Contributors\"]},\"visible\":true,\"active\":true,\"userDisabled\":false,\"appDisabled\":false,\"descriptor\":\"C:\\\\Program Files\\\\Mozilla Firefox\\\\browser\\\\extensions\\\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi\",\"installDate\":1474576289000,\"updateDate\":1474576289000,\"applyBackgroundUpdates\":1,\"skinnable\":true,\"size\":21905,\"sourceURI\":null,\"releaseNotesURI\":null,\"softDisabled\":false,\"foreignInstall\":false,\"hasBinaryComponents\":false,\"strictCompatibility\":true,\"locales\":[],\"targetApplications\":[{\"id\":\"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\",\"minVersion\":\"49.0.1\",\"maxVersion\":\"49.0.1\"}],\"targetPlatforms\":[],\"seen\":true}\r\n1491856739694\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1491856739696\tDeferredSave.extensions.json\tDEBUG\tSave changes\r\n1491856739696\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\r\n1491856739696\taddons.xpi-utils\tDEBUG\tUpdating add-on states\r\n1491856739699\taddons.xpi-utils\tDEBUG\tWriting add-ons list\r\n1491856739702\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi\r\n1491856739703\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\r\n1491856739703\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi\r\n1491856739703\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\r\n1491856739704\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi\r\n1491856739704\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\r\n1491856739706\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1491856739707\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1491856739707\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1491856739707\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1491856739715\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1491856739716\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1491856739716\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1491856739716\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1491856739716\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1491856739717\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1491856740838\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\r\n1491856740838\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\r\n1491856740838\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\r\n1491856740840\tDeferredSave.extensions.json\tDEBUG\tStarting write\r\n1491856740999\taddons.repository\tDEBUG\tNo addons.json found.\r\n1491856741000\tDeferredSave.addons.json\tDEBUG\tSave changes\r\n1491856741003\tDeferredSave.addons.json\tDEBUG\tStarting timer\r\n1491856741027\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1491856741028\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1491856741028\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n1491856741032\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\r\n1491856741033\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\r\n1491856741056\tDeferredSave.addons.json\tDEBUG\tStarting write\r\n1491856741072\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\r\n[Child 8632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n[Child 8632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n",
+                        "stackTrace": [
+                          "org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)",
+                          "org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)",
+                          "org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)",
+                          "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)",
+                          "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)",
+                          "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)",
+                          "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newFirefoxDriver(FirefoxDriverProvider.java:67)",
+                          "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:51)",
+                          "net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:125)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                          "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                          "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                          "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                          "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                          "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                          "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                          "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                          "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                          "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                          "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:498)",
+                          "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                          "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                          "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                          "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                          "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                          "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                          "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                          "java.lang.Thread.run(Thread.java:745)"
+                        ],
+                        "suppressedExceptions": [
+                          [],
+                          []
+                        ]
+                      },
+                      "stackTrace": [
+                        "org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)",
+                        "org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)",
+                        "org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)",
+                        "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)",
+                        "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)",
+                        "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)",
+                        "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newFirefoxDriver(FirefoxDriverProvider.java:67)",
+                        "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:51)",
+                        "net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:125)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                        "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                        "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                        "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                        "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "extraInfo": [
+                        [
+                          "Driver info",
+                          "driver.version: FirefoxDriver"
+                        ]
+                      ]
+                    },
+                    "stackTrace": [
+                      "net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:135)",
+                      "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)",
+                      "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                      "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                      "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                      "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                      "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                      "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                      "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                      "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                      "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                      "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                      "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                      "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                      "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                      "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                      "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                      "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                      "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                      "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                      "java.lang.reflect.Method.invoke(Method.java:498)",
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ]
+                  },
+                  "stackTrace": [
+                    "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:148)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                    "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                    "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                    "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                    "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                    "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                    "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                    "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ]
+                },
+                "stackTrace": [
+                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:745)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "015bd529-176f-4145-a574-c2bf1b79fc40"
+              },
+              "parametrisedStep": "Given the user is on the Wikionary home page",
+              "durationInMillis": 48480
+            },
+            {
+              "step": "When the user looks up the definition of the word 'apple'",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "When the user looks up the definition of the word 'apple'",
+              "durationInMillis": 0
+            },
+            {
+              "step": "Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.'",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.'",
+              "durationInMillis": 0
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Looking up the definition of 'apple'",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given the user is on the Wikionary home page",
+            "When the user looks up the definition of the word 'apple'",
+            "Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.'"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "FAILED"
+    },
+    {
+      "scenario": {
+        "title": "Looking up the definition of 'pear'",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given the user is on the Wikionary home page",
+          "When the user looks up the definition of the word 'pear'",
+          "Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'"
+        ]
+      },
+      "storyPath": "stories/consult_dictionary/LookupADefinition.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given the user is on the Wikionary home page",
+              "type": "FAILED",
+              "throwable": {
+                "detailMessage": "Given the user is on the Wikionary home page",
+                "cause": {
+                  "@class": "net.thucydides.core.webdriver.UnsupportedDriverException",
+                  "detailMessage": "Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver",
+                  "cause": {
+                    "@class": "net.thucydides.core.webdriver.UnsupportedDriverException",
+                    "detailMessage": "Could not instantiate new webdriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Failed to connect to binary FirefoxBinary(C:\\Program Files\\Mozilla Firefox\\firefox.exe) on port 7055; process output follows: \ngetPlatforms\":[],\"seen\":true}\r\n1491856786112\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1491856786113\tDeferredSave.extensions.json\tDEBUG\tSave changes\r\n1491856786113\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\r\n1491856786113\taddons.xpi-utils\tDEBUG\tUpdating add-on states\r\n1491856786116\taddons.xpi-utils\tDEBUG\tWriting add-ons list\r\n1491856786119\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi\r\n1491856786119\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\r\n1491856786119\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi\r\n1491856786120\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\r\n1491856786121\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi\r\n1491856786121\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\r\n1491856786123\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1491856786123\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1491856786123\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1491856786132\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1491856786133\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1491856786133\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1491856787423\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\r\n1491856787423\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\r\n1491856787424\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\r\n1491856787425\tDeferredSave.extensions.json\tDEBUG\tStarting write\r\n1491856787597\taddons.repository\tDEBUG\tNo addons.json found.\r\n1491856787597\tDeferredSave.addons.json\tDEBUG\tSave changes\r\n1491856787601\tDeferredSave.addons.json\tDEBUG\tStarting timer\r\n1491856787623\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1491856787624\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1491856787624\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n1491856787627\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\r\n1491856787628\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\r\n1491856787660\tDeferredSave.addons.json\tDEBUG\tStarting write\r\n1491856787676\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\r\n[Child 9732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n[Child 9732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n\r\n###!!! [Child][MessageChannel::SendAndWait] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\nJavaScript error: resource://pdf.js/PdfjsContentUtils.jsm, line 106: TypeError: this._mm.sendSyncMessage(...) is undefined\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: FirefoxDriver",
+                    "cause": {
+                      "@class": "org.openqa.selenium.WebDriverException",
+                      "detailMessage": "Failed to connect to binary FirefoxBinary(C:\\Program Files\\Mozilla Firefox\\firefox.exe) on port 7055; process output follows: \ngetPlatforms\":[],\"seen\":true}\r\n1491856786112\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1491856786113\tDeferredSave.extensions.json\tDEBUG\tSave changes\r\n1491856786113\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\r\n1491856786113\taddons.xpi-utils\tDEBUG\tUpdating add-on states\r\n1491856786116\taddons.xpi-utils\tDEBUG\tWriting add-ons list\r\n1491856786119\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi\r\n1491856786119\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\r\n1491856786119\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi\r\n1491856786120\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\r\n1491856786121\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi\r\n1491856786121\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\r\n1491856786123\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1491856786123\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1491856786123\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1491856786132\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1491856786133\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1491856786133\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1491856787423\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\r\n1491856787423\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\r\n1491856787424\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\r\n1491856787425\tDeferredSave.extensions.json\tDEBUG\tStarting write\r\n1491856787597\taddons.repository\tDEBUG\tNo addons.json found.\r\n1491856787597\tDeferredSave.addons.json\tDEBUG\tSave changes\r\n1491856787601\tDeferredSave.addons.json\tDEBUG\tStarting timer\r\n1491856787623\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1491856787624\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1491856787624\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n1491856787627\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\r\n1491856787628\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\r\n1491856787660\tDeferredSave.addons.json\tDEBUG\tStarting write\r\n1491856787676\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\r\n[Child 9732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n[Child 9732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n\r\n###!!! [Child][MessageChannel::SendAndWait] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\nJavaScript error: resource://pdf.js/PdfjsContentUtils.jsm, line 106: TypeError: this._mm.sendSyncMessage(...) is undefined\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n",
+                      "cause": {
+                        "@class": "org.openqa.selenium.firefox.NotConnectedException",
+                        "detailMessage": "Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:\ngetPlatforms\":[],\"seen\":true}\r\n1491856786112\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1491856786113\tDeferredSave.extensions.json\tDEBUG\tSave changes\r\n1491856786113\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\r\n1491856786113\taddons.xpi-utils\tDEBUG\tUpdating add-on states\r\n1491856786116\taddons.xpi-utils\tDEBUG\tWriting add-ons list\r\n1491856786119\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi\r\n1491856786119\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\r\n1491856786119\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi\r\n1491856786120\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\r\n1491856786121\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi\r\n1491856786121\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\r\n1491856786123\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1491856786123\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1491856786123\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1491856786124\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1491856786132\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1491856786132\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1491856786133\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1491856786133\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1491856787423\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\r\n1491856787423\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\r\n1491856787424\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\r\n1491856787425\tDeferredSave.extensions.json\tDEBUG\tStarting write\r\n1491856787597\taddons.repository\tDEBUG\tNo addons.json found.\r\n1491856787597\tDeferredSave.addons.json\tDEBUG\tSave changes\r\n1491856787601\tDeferredSave.addons.json\tDEBUG\tStarting timer\r\n1491856787623\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1491856787624\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1491856787624\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n1491856787627\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\r\n1491856787628\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\r\n1491856787660\tDeferredSave.addons.json\tDEBUG\tStarting write\r\n1491856787676\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\r\n[Child 9732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n[Child 9732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346\r\n\r\n###!!! [Child][MessageChannel::SendAndWait] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\nJavaScript error: resource://pdf.js/PdfjsContentUtils.jsm, line 106: TypeError: this._mm.sendSyncMessage(...) is undefined\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n\r\n###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost\r\n\r\n",
+                        "stackTrace": [
+                          "org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)",
+                          "org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)",
+                          "org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)",
+                          "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)",
+                          "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)",
+                          "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)",
+                          "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newFirefoxDriver(FirefoxDriverProvider.java:67)",
+                          "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:51)",
+                          "net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:125)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                          "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                          "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                          "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                          "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                          "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                          "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                          "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                          "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                          "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                          "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                          "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                          "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:498)",
+                          "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                          "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                          "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                          "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                          "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                          "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                          "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                          "java.lang.Thread.run(Thread.java:745)"
+                        ],
+                        "suppressedExceptions": [
+                          [],
+                          []
+                        ]
+                      },
+                      "stackTrace": [
+                        "org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)",
+                        "org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)",
+                        "org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)",
+                        "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)",
+                        "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)",
+                        "org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)",
+                        "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newFirefoxDriver(FirefoxDriverProvider.java:67)",
+                        "net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:51)",
+                        "net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:125)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                        "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                        "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                        "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                        "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "extraInfo": [
+                        [
+                          "Driver info",
+                          "driver.version: FirefoxDriver"
+                        ]
+                      ]
+                    },
+                    "stackTrace": [
+                      "net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:135)",
+                      "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)",
+                      "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                      "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                      "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                      "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                      "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                      "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                      "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                      "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                      "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                      "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                      "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                      "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                      "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                      "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                      "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                      "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                      "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                      "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                      "java.lang.reflect.Method.invoke(Method.java:498)",
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ]
+                  },
+                  "stackTrace": [
+                    "net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:148)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                    "net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:829)",
+                    "net.serenitybdd.core.pages.PageObject.open(PageObject.java:739)",
+                    "net.serenitybdd.core.pages.PageObject.open(PageObject.java:727)",
+                    "com.prueba.windows.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)",
+                    "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.CGLIB$is_the_home_page$3(<generated>)",
+                    "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920$$FastClassByCGLIB$$e570f4c2.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "com.prueba.windows.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$52af5920.is_the_home_page(<generated>)",
+                    "com.prueba.windows.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ]
+                },
+                "stackTrace": [
+                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:745)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "632bc81b-7e17-4ba1-9390-0be0a002cb50"
+              },
+              "parametrisedStep": "Given the user is on the Wikionary home page",
+              "durationInMillis": 46480
+            },
+            {
+              "step": "When the user looks up the definition of the word 'pear'",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "When the user looks up the definition of the word 'pear'",
+              "durationInMillis": 0
+            },
+            {
+              "step": "Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'",
+              "durationInMillis": 0
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Looking up the definition of 'pear'",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given the user is on the Wikionary home page",
+            "When the user looks up the definition of the word 'pear'",
+            "Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "NOT_PERFORMED"
+    }
+  ]
+}}

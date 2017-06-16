@@ -1,0 +1,5 @@
+com\prueba\windows\pages\DictionaryPage$1.class
+com\prueba\windows\steps\serenity\EndUserSteps.class
+com\prueba\windows\pages\DictionaryPage.class
+com\prueba\windows\steps\DefinitionSteps.class
+com\prueba\windows\AcceptanceTestSuite.class
